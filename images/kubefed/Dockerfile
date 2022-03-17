@@ -13,7 +13,7 @@
 # limitations under the License.
 
 
-FROM alpine:latest
+FROM alpine:3.15
 RUN apk --no-cache add ca-certificates
 RUN adduser -D -g hyperfed -u 1001 hyperfed
 
